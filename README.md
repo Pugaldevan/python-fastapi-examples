@@ -36,7 +36,7 @@ All endpoints require the API key header: `X-API-Key: 123456789abcdef`
 
 ### Data Creation Endpoints
 
-- **POST** `/users`
+- **POST** `/json`
   - Creates a new user with JSON data
   - Request body: `{"name": "string", "age": integer, "address": "string"}`
   - Example request body:
